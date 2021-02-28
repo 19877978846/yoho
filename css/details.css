@@ -1,0 +1,92 @@
+.details{
+  width: 1150px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+} 
+.details-le,.details-ri{
+  float: left;
+}
+.details-le{
+  position: relative;
+  /* border: 1px solid #000; */
+  /* box-sizing: border-box; */
+}
+.details-le img{
+  width: 400px;
+  height: 532px;
+  /* border: 1px solid #000; */
+}
+.details .mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 266px;
+  background: rgba(0,0,0,.3);
+  display: none;
+}
+.details .imgShow{
+  width: 400px;
+  height: 532px;
+  border: 1px solid #000;
+  position: absolute;
+  left: 410px;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* display: none; */
+}
+.details .imgShow img{
+  width: 800px;
+  height: 1064px;
+  position: absolute;
+}
+.details-ri{
+  width: 730px;
+  height: 533px;
+  margin-left: 20px;
+  /* background: rgb(160, 168, 88); */
+}
+.details-ri ul li{
+  height: 80px;
+  width: 100%;
+  border-top: .5px solid #999; 
+  border-bottom: .5px solid #999; 
+}
+.details-ri ul li p{
+  line-height: 80px;
+  font-weight: 800;
+}
+.details-ri ul li p span{
+  font-weight: normal;
+}
+.details-ri ul li:nth-of-type(3){
+  height: 150px;
+  line-height: 150px;
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+.details-ri ul li span input[type="button"]{
+  width: 30px;
+  height: 30px;
+}
+.details-ri ul li span input[type="text"]{
+  width: 50px;
+  height: 28px;
+  text-align: center;
+}
+.details-ri ul li:nth-of-type(4){
+  height: 216px;
+  width: 100%;
+  border-bottom: 0;
+  /* border: 1px solid #000; */
+}
+.details-ri ul li:nth-of-type(4) a{
+  display: inline-block;
+  padding: 10px 50px;
+  color: aliceblue;
+  font-weight: 800;
+  background: rgb(230, 15, 15);
+  margin-top: 50px;
+}

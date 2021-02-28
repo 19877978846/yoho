@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+html,
+body,
+div,
+section,
+article,
+nav,
+aside,
+header,
+footer,
+table,
+form,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+tr,
+td,
+th,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+a,
+u {
+	color: #000;
+	text-decoration: none;
+}
+
+b,
+strong {
+	font-weight: normal;
+}
+
+i,
+em {
+	font-style: normal;
+	/* font-family: "SimSun"; */
+	color: gray;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+input,
+button {
+	outline: none;
+	border: 0;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+img {
+	border: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+body {
+	font-size: 12px;
+}
+
+
+/* 滚动条整体样式 */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+}
+
+/* 滚动条里面小方块 */
+::-webkit-scrollbar-thumb {
+	background: #ccc;
+	border-radius: 5px;
+}
+
+/*滚动条里面轨道*/
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}

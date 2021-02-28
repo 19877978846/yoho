@@ -1,0 +1,153 @@
+/* 头部开始 */
+.header-wrap{
+  width: 100%;
+  height: 70px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+.head{
+  /* padding-top: 20px; */
+  width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+}
+.head .logo{
+  margin-top: 20px;
+}
+.head .logo {
+  float: left;
+}
+.head-nav ul{
+  float: right;
+  width: 400px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid #000;   */
+}
+.head-nav ul li a{
+  color: #333;
+  font-size: 12px;
+}
+.head-nav ul li a:hover{
+  border-bottom: 1px solid #000;
+}
+/* 头部结束 */
+/* 提示开始 */
+.tips{
+  margin-top: 20px;
+  width: 1150px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 0 auto;
+  text-indent: 2em;
+  color: #666;
+  background: rgb(209, 209, 209);
+}
+/* 提示结束 */
+ /* cart-info开始 */
+ .cart-info{
+   width: 1150px;
+   height: 60px;
+   margin: 20px auto 0;
+   line-height: 60px;
+   border: 1px solid #000;
+ }
+ .cart-info p{
+   padding-left: 50px;
+   float: left;
+ }
+ .cart-info p:nth-of-type(2){
+   margin-left: 150px;
+ }
+ .cart-info p:nth-of-type(3){
+  margin-left: 150px;
+}
+.cart-info p:nth-of-type(4){
+  margin-left: 80px;
+}
+.cart-info p:nth-of-type(5){
+  margin-left: 80px;
+}
+.cart-info p:nth-of-type(6){
+  margin-left: 80px;
+}
+ /* cart-info结束 */
+ /* cart开始 */
+ .cart{
+   width: 1150px;
+   margin: 0 auto;
+   border: 1px solid #000;
+   padding: 20px;
+   overflow: hidden;
+   /* line-height: 80px; */
+   margin-top: 20px;
+   box-sizing: border-box;
+ }
+ .cart li{
+   border: 1px solid #000;
+   overflow: hidden;
+   margin-bottom: 20px;
+ }
+ .cart p{
+   float: left;
+   margin-top: 20px;
+ }
+ .cart li p:first-child{
+   margin-left: 30px;
+ }
+ .cart li p:nth-of-type(2){
+
+}
+ .cart li p img{
+   width: 80px;
+ }
+ .cart li p input[type="button"]{
+   width: 30px;
+   height: 30px;
+   /* border: 1px solid #000; */
+ }
+ .cart li p input[type="text"]{
+   width: 50px;
+   text-align: center;
+   height: 28px;
+ }
+ .cart li p a{
+   display: block;
+ }
+ .cart li p:nth-of-type(3){
+   margin-left: 20px;
+   width: 300px;
+ }
+ .cart li p:nth-of-type(4){
+  margin-left: 80px;
+  width: 50px;
+  /* border: 1px solid #000; */
+}
+.cart li p:nth-of-type(5){
+  margin-left: 80px;
+  width: 130px;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+.cart li p:nth-of-type(6){
+  /* color: red; */
+  margin-left: 60px;
+  width: 70px;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+.cart li p:nth-of-type(7){
+  /* color: red; */
+  margin-left: 70px;
+  width: 100px;
+  /* text-align: center; */
+  /* border: 1px solid #000; */
+}
+.cart li p:nth-of-type(7) a,.cart li p em{
+  cursor: pointer;
+  color: red;
+}
+ /* cart结束 */

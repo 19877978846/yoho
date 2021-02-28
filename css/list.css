@@ -1,0 +1,229 @@
+a{
+  color: #333;
+}
+/* 菜单栏开始 */
+.list-menu{
+  width: 1150px;
+  border: 1px solid #000;
+  overflow: hidden;
+  padding-top: 10px;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+.list-menu a{
+  color: #666;
+}
+/* 菜单栏左侧 */
+.list-menu .list-le{
+  width: 200px;
+  float: left;
+  /* border: 1px solid #000; */
+}
+.list-menu .list-le ul li p{
+  margin: 5px 0 20px 0;
+}
+.list-menu .list-le ul li{
+  margin: 0 0 10px 0;
+}
+.list-menu .list-le ul li a{
+  color: rgb(19, 18, 18);
+  font-weight: bold;
+}
+/* 菜单栏右侧 */
+.list-menu .list-ri{
+  float: left;
+  width: 940px;
+  overflow: hidden;
+  /* border: 1px solid #000; */
+  /* background: #000; */
+  border: 1px solid #999;
+}
+.list-menu .list-ri ul li{
+  padding: 5px 10px;
+}
+.list-menu .list-ri ul li:first-child{
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  /* background: rgb(168, 93, 93); */
+}
+.list-menu .list-ri ul li:nth-child(2){
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  position: relative;
+  /* background: rgb(152, 201, 221); */
+}
+.list-menu .list-ri ul li:nth-child(3){
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  /* background: rgb(112, 209, 108); */
+}
+.list-menu .list-ri ul li:nth-child(4){
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  /* background: rgb(119, 194, 76); */
+}
+.list-menu .list-ri ul li:nth-child(5){
+  width: 100%;
+  line-height: 50px;
+  height: 50px;
+  /* background: rgb(94, 49, 216); */
+}
+.list-menu .list-ri ul li:first-child>p,.list-menu .list-ri ul li:first-child>h4{
+  float: left;
+}
+
+.list-menu .list-ri ul li .pinp,.list-menu .list-ri ul li h4{
+  float: left;
+}
+.list-menu .list-ri ul li h4{
+  width: 800px;
+}
+.list-menu .list-ri .sex{
+  margin:0 40px 0 20px;
+}
+.list-menu .list-ri ul li .pinp+h4 span{  
+  float: left;
+  margin-right: 80px;
+}
+.list-menu .list-ri ul li .pinp,.pinp+h4{
+  margin: 20px;
+}
+.list-menu .list-ri ul li .pinp+h4>span{
+  margin-bottom: 20px;
+}
+.list-menu .list-ri .more{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  margin-right: 20px;
+}
+.list-menu .list-ri .more span:last-child a{
+  padding: 2px 5px;
+  margin-left: 10px;
+  border: 1px solid #000;
+} 
+.list-menu .list-ri ul li .price,.list-menu .list-ri ul li h4{
+  float: left;
+} 
+.list-menu .list-ri .price{
+  margin: 0 20px;
+}
+.list-menu .list-ri .color,.list-menu .list-ri .color+h4{
+  float: left;
+}
+.list-menu .list-ri .color{
+  padding: 0 20px;
+}
+.list-menu .list-ri .color+h4 span{
+  margin-right: 20px;
+}
+.list-menu .list-ri ul li .gj-select,.list-menu .list-ri ul li h4{
+  float: left;
+}
+.list-menu .list-ri ul li .gj-select{
+  margin: 0 20px;
+}
+.list-menu .list-ri ul li .gj-select+h4 span{
+  margin-right: 10px;
+}
+
+.list-menu .list-tit{
+  float: right;
+  width: 940px;
+  color: #333;
+  height: 50px;
+  line-height: 30px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin  : 10px 10px 0;
+  background: #f5f7f6;
+  border: 1px solid #000;
+}
+.list-menu .list-tit p,.list-menu .list-tit h4{
+  float: left;
+}
+.list-menu .list-tit p{
+  margin-right: 20px;
+}
+.list-menu .list-tit p+h4 span{
+  margin-right: 20px;
+}
+.list-menu .list-tit label{
+  color: #666;
+  margin-right: 20px;
+}
+.list-menu .list-commodity{
+  float: right;
+  width: 940px;
+  color: #333;
+  box-sizing: border-box;
+  margin  : 10px 10px 0;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+.list-commodity ul{
+  width: 1000px;
+  overflow: hidden;
+}
+ .list-commodity ul li{
+  width: 225px;
+  height: 380px;
+  float: left;
+  margin-right: 13px;
+  margin-bottom: 13px;
+  /* background: #000; */
+}
+.list-commodity ul li:hover{
+  box-shadow: 0px 0px 3px #000;
+}
+.list-commodity ul li img{
+  width: 100%
+}
+.list-commodity ul li div p:nth-of-type(2){
+  color: #999;
+}
+.list-commodity ul li div>p del{
+  margin-right: 20px;
+}
+.list-commodity ul li div>a{
+  padding: 2px 5px;
+  margin-left: 10px;
+  /* background: #000; */
+  border: 1px solid #000;
+  display: inline-block;
+  margin-top: 10px;
+}
+.list-commodity ul li div>a:hover{
+  padding: 2px 5px;
+  margin-left: 10px;
+  /* background: #000; */
+  border: 1px solid #000;
+  display: inline-block;
+  margin-top: 10px;
+  color: beige;
+  background: rgb(228, 59, 59);
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgb(207, 207, 207);
+}
+.list-commodity ul li div>a+em{
+  padding: 2px 5px;
+  border: 1px solid #000;
+  
+}
+.list-commodity ul li div>a+em:hover{
+  padding: 2px 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: rgb(228, 59, 59);
+  box-shadow: 2px 2px 4px rgb(207, 207, 207);
+  
+}
+/* 菜单栏结束 */
